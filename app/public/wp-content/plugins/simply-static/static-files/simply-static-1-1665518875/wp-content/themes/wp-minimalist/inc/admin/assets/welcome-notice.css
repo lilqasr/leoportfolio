@@ -1,0 +1,36 @@
+/*---------------------------
+   Welcome Notice Styling
+----------------------------*/
+.wp-minimalist-welcome-notice {
+    font-family: cursive;
+}
+
+.wp-minimalist-welcome-notice .notice-content-wrap {
+    display: flex;
+}
+
+.wp-minimalist-welcome-notice .notice-highlight {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.wp-minimalist-welcome-notice .notice-content {
+    padding: 0px 20px;
+}
+
+.wp-minimalist-welcome-notice .notice-actions {
+    padding-top: 15px;
+}
+
+.wp-minimalist-welcome-notice .notice-actions a {
+    padding: 6px 22px;
+}
+
+.wp-minimalist-welcome-notice .notice-dismiss-button {
+    text-align: right;
+    padding-bottom: 10px;
+ }
+ 
+ .wp-minimalist-welcome-notice .notice-dismiss-button a {
+    color: #ff0000;
+ }

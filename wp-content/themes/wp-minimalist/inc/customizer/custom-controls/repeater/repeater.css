@@ -1,0 +1,172 @@
+/**
+ * Applies styling for repeater control
+ * 
+ * Particular styling for this control
+ */
+ .wp-minimalist-repeater-control .wp-minimalist-repeater-control-inner {
+    padding: 10px;
+ }
+
+ .wp-minimalist-repeater-control .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item {
+    background: #ffffff;
+    box-shadow: -2px -2px 2px #e1dfdf;
+    z-index: 2;
+    border-radius: 5px;
+    margin-bottom: 6px;
+ }
+
+ .wp-minimalist-repeater-control .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item.not-visible {
+    opacity: 0.6;
+    border: 1px dashed;
+ }
+
+ .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item h2 {
+    margin: 0;
+    margin-bottom: 5px;
+ }
+
+ .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item .item-heading-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+ }
+
+ .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item .item-heading-wrap .display-icon,
+ .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item .item-heading-wrap .item-heading {
+    cursor: pointer;
+ }
+
+ .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item .item-heading-wrap .sortable-icon {
+    cursor: move;
+ }
+
+ .wp-minimalist-repeater-control-inner .wp-minimalist-repeater-item .item-control-fields {
+    display: none;
+    padding: 10px 20px;
+    border-top: 1px solid #00000040;
+}
+
+.wp-minimalist-repeater-item .item-control-fields .control--item-label {
+    font-size: 14px;
+}
+
+.wp-minimalist-repeater-item .item-control-fields .control--item-description {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.wp-minimalist-repeater-item .item-control-fields .single-control {
+    margin-bottom: 8px;
+}
+
+.customize-control .wp-minimalist-repeater-control input, 
+.customize-control .wp-minimalist-repeater-control textarea,
+.customize-control .wp-minimalist-repeater-control .image-holder {
+    margin-top: 2px;
+    border: none;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+    border-radius: 0;
+}
+
+.wp-minimalist-repeater-control-inner .buttons-wrap {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.wp-minimalist-repeater-control-inner .buttons-wrap .add-new-item {
+    cursor: pointer;
+    padding: 4px 8px;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.wp-minimalist-repeater-control-inner .remove-item {
+    color: #d63638;
+    text-decoration: underline;
+    text-align: right;
+    cursor: pointer;
+}
+
+.wp-minimalist-repeater-control-inner .image-field .image-holder .add-image-trigger {
+    cursor: pointer;
+    text-align: center;
+    border: 1px dashed #aba9a9;
+    padding: 8px 10px;
+}
+
+.wp-minimalist-repeater-control-inner .image-field .image-holder img {
+    width: 100%;
+}
+
+.wp-minimalist-repeater-control-inner .image-field .no-image, 
+.wp-minimalist-repeater-control-inner .image-field .no-trigger {
+    display: none;
+}
+
+.wp-minimalist-repeater-control-inner .image-field .image-holder .image-element {
+    position: relative;
+}
+
+.wp-minimalist-repeater-control-inner .image-field .image-holder .image-element .remove-image {
+    display: none;
+}
+.wp-minimalist-repeater-control-inner .image-field .image-holder .image-element:hover .remove-image {
+    position: absolute;
+    cursor: pointer;
+    color: #ff00009e;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    top: 0;
+}
+
+.wp-minimalist-repeater-control-inner .image-field .image-holder .image-element:hover img {
+    opacity: 0.5;
+}
+
+/******** Fontawesome Icon picker ****************/
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icon-header {
+    cursor: pointer;
+}
+
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icon-header {
+    display: flex;
+    background: #f0f0f1;
+    box-shadow: 0px 0px 2px rgb(24 35 177 / 58%);
+}
+
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icon-header i {
+    font-size: 24px;
+}
+
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icon-header > div {
+    flex: 50%;
+    text-align: center;
+    padding: 8px 2px;
+}
+
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icons-list {
+    padding-top: 15px;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icons-list i {
+    cursor: pointer;
+    float: left;
+    width: 16%;
+    text-align: center;
+    border: 1px solid #00000029;
+    font-size: 26px;
+    padding: 6px;
+}
+
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icons-list i:hover,
+.wp-minimalist-repeater-control .fontawesome-icon-picker .icons-list i.selected {
+    background: #000000;
+    color: #ffffff;
+}

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>leolab88 &#8211; leo-portfolio</title>
+	<atom:link href="/https://lilqasr.github.io/llabarcaq_PortFolio/author/leolab88/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://lilqasr.github.io/llabarcaq_PortFolio/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Sun, 09 Oct 2022 13:37:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<item>
+		<title>Building a dataset from published pdf files</title>
+		<link>/https://lilqasr.github.io/llabarcaq_PortFolio/building-a-dataset-from-published-pdf-files/</link>
+					<comments>/https://lilqasr.github.io/llabarcaq_PortFolio/building-a-dataset-from-published-pdf-files/#respond</comments>
+		
+		<dc:creator><![CDATA[leolab88]]></dc:creator>
+		<pubDate>Sun, 09 Oct 2022 13:36:46 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Build]]></category>
+		<category><![CDATA[Clean]]></category>
+		<guid isPermaLink="false">/https://lilqasr.github.io/llabarcaq_PortFolio/?p=68</guid>
+
+					<description><![CDATA[As i show you in a last post, i used python with BeautifulSoup to download several of pdf files published in a government institution in order to make an analysis of this information. The scraping was the first part of the work, but then it was necessary to build the database. To do that i used, again python, using its Pandas library. Here is the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>As i show you in a last post, i used python with BeautifulSoup to download several of pdf files published in a government institution in order to make an analysis of this information. The scraping was the first part of the work, but then it was necessary to build the database. </p>
+
+
+
+<p>To do that i used, again python, using its Pandas library. Here is the notebook:</p>
+
+
+
+<!--–– replace src and id. Note that the id appears in two places ––-->
+<iframe src="/https://lilqasr.github.io/llabarcaq_PortFolio/wp-content/uploads/2022/10/Resoluciones_auditorias_publicadas-2015-2020-part2.html" id="DatasetPDF_published_CGR" scrolling="no" width="100%" frameborder="0" style="border: 1px lightgrey solid;">
+</iframe>
+<script>
+(function(){
+    var iframe = document.getElementById("DatasetPDF_published_CGR");
+    function resize() {
+        iframe.style.height = 
+        (iframe.contentWindow.document.body.scrollHeight + 4) + 'px';
+        // "body" in the above line may need to be changed,
+        // depending on the specific version of Jupyter.
+        // For example, it may have to be replaced with 
+        // .getElementById("notebook-container"), and the 
+        // DOM and the id may need to be manually added.
+    }
+    window.addEventListener("resize", resize);
+    iframe.addEventListener("load", resize);
+})()
+</script>
+
+
+
+<p>After building the dataset, and clean the first part, it was necessary to make a new job, that was check the similarity values in the &#8220;institucion&#8221; column. As was shown, this column has a lot of problems because some names are repeated with misspelling.</p>
+
+
+
+<p>A time ago, i found out that there is a tool develop by the open source community called <a rel="noreferrer noopener" href="https://openrefine.org/" target="_blank">OpenRefine</a> and help to clean the messy data in a dataset. But in my case i wanted to do something with python and i also find out that there was a library called FuzzyWuzzy, that works similarly as OpenRefine. </p>
+
+
+
+<p>What i understood from FuzzyWuzzy was that you need to have a list, series or whatever you want of the correct names that you want to change. Since a did not have this, i had to build it. And below is the work:</p>
+
+
+
+<!--–– replace src and id. Note that the id appears in two places ––-->
+<iframe src="/https://lilqasr.github.io/llabarcaq_PortFolio/wp-content/uploads/2022/10/Limpieza_Auditorias_publicadas_2015-2020_sitioCGR.html" id="Limpieza_DatasetPDF_published_CGR" scrolling="no" width="100%" frameborder="0" style="border: 1px lightgrey solid;">
+</iframe>
+<script>
+(function(){
+    var iframe = document.getElementById("Limpieza_DatasetPDF_published_CGR");
+    function resize() {
+        iframe.style.height = 
+        (iframe.contentWindow.document.body.scrollHeight + 4) + 'px';
+        // "body" in the above line may need to be changed,
+        // depending on the specific version of Jupyter.
+        // For example, it may have to be replaced with 
+        // .getElementById("notebook-container"), and the 
+        // DOM and the id may need to be manually added.
+    }
+    window.addEventListener("resize", resize);
+    iframe.addEventListener("load", resize);
+})()
+</script>
+
+
+
+<p>The last phase of this project would be the analysis of the dataset, but this i will show you in this next post.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://lilqasr.github.io/llabarcaq_PortFolio/building-a-dataset-from-published-pdf-files/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Download PDF files from a website</title>
+		<link>/https://lilqasr.github.io/llabarcaq_PortFolio/extract-pdf-website-government/</link>
+					<comments>/https://lilqasr.github.io/llabarcaq_PortFolio/extract-pdf-website-government/#respond</comments>
+		
+		<dc:creator><![CDATA[leolab88]]></dc:creator>
+		<pubDate>Wed, 28 Sep 2022 17:57:12 +0000</pubDate>
+				<category><![CDATA[Python]]></category>
+		<category><![CDATA[Scraping]]></category>
+		<guid isPermaLink="false">/https://lilqasr.github.io/llabarcaq_PortFolio/?p=43</guid>
+
+					<description><![CDATA[Even though, i'm not a data scientist, i have experience building datasets, most of them from public sector institutions of my country (Nicaragua), but when i found that the webscrape existed, i tried to learn it, and was a relief.]]></description>
+										<content:encoded><![CDATA[
+<p>Even though, i&#8217;m not a data scientist, i have experience building datasets, most of them from public sector institutions of my country (Nicaragua). Since i hadn&#8217;t the knowledge when i had to do researches to get official documentation that is published on public institutions websites, was very difficult. </p>
+
+
+
+<p>The public sector in Nicaragua is the second most corrupt and one of the least transparent in Latinamerica. It does not take the most of the advantages offered by telecommunication technologies. But for some years, some of its institutions are publishing lot of information, but not in a simple way.</p>
+
+
+
+<p>So, i was asked to make a report about the situation of the accountability in local governments in Nicaragua. I tried to adapt a methodology from the International Budget Partnership  to develop its Open Budget Survey, and one of the task in order to do that was check how many Audit Reports are published on the Contraloría General de la República (CGR) website. </p>
+
+
+
+<p>The first thing was to get a dataset with the data published within the Governance Report of CGR between 2011 and 2020. Then, looking into that information, i wanted to know if they published all the audits report they say they do every year, which leaded me to download all the information in those section of the website. </p>
+
+
+
+<p>I did not mention before, but this website only works with visitor from Nicaragua&#8217;s IP. In order to access it, i had to use a VPN with a Nicaragua IP, and when i was running the scraper code i had to activate it.</p>
+
+
+
+<h2>Web Scraping with python</h2>
+
+
+
+<p>Since i recently started using Python, i&#8217;m familiar with the language structured and i found out that has powerful tools to make the web scraping. </p>
+
+
+
+<p>So, after a lot of research, i found that one of the best tools for web scraping is the Beautiful Sup library. This, combining others python&#8217;s modules as &#8220;requests&#8221; and &#8220;urllib.parse&#8221;, was going to give me the results i wanted.</p>
+
+
+
+<p>The place where is located the information i wanted to substract is in the document repository (Repositorio de documentos) section. Then it is necessary to access inside the &#8220;Auditorías Aprobadas por el Consejo Superior. Then, the information is extracted by year and Audit Unit: &#8220;CGR_Fondos_Propios&#8221;, &#8220;FirmasPrivadas&#8221;, &#8220;UAI&#8221;  . </p>
+
+
+
+<p><strong>Here you have my jupyter notebook with part of the work:</strong></p>
+
+
+
+<!--–– replace src and id. Note that the id appears in two places ––-->
+<iframe src="/https://lilqasr.github.io/llabarcaq_PortFolio/wp-content/uploads/2022/10/CGR_PDF-FILES_DOWNLOAD.html" id="webscrapePDF_CGR" scrolling="no" width="100%" frameborder="0" style="border: 1px lightgrey solid;">
+</iframe>
+<script>
+(function(){
+    var iframe = document.getElementById("webscrapePDF_CGR");
+    function resize() {
+        iframe.style.height = 
+        (iframe.contentWindow.document.body.scrollHeight + 4) + 'px';
+        // "body" in the above line may need to be changed,
+        // depending on the specific version of Jupyter.
+        // For example, it may have to be replaced with 
+        // .getElementById("notebook-container"), and the 
+        // DOM and the id may need to be manually added.
+    }
+    window.addEventListener("resize", resize);
+    iframe.addEventListener("load", resize);
+})()
+</script>
+
+
+
+<p>After done this part, it was necessary to merge all of the tables and get information of how many Audits Resolutions Reports were published by the CGR each year and by unit audit.</p>
+
+
+
+<p>In conclusion, with these few codes, using BeautifulSoup, you can download a files that you&#8217;re interested in and also get a dataset of the information in order to make the analysis you want. But that i will show you in another post.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://lilqasr.github.io/llabarcaq_PortFolio/extract-pdf-website-government/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Análisis Programa de Inversión Pública en Nicaragua</title>
+		<link>/https://lilqasr.github.io/llabarcaq_PortFolio/ahi-vamo/</link>
+					<comments>/https://lilqasr.github.io/llabarcaq_PortFolio/ahi-vamo/#respond</comments>
+		
+		<dc:creator><![CDATA[leolab88]]></dc:creator>
+		<pubDate>Tue, 27 Sep 2022 01:40:05 +0000</pubDate>
+				<category><![CDATA[Mixed]]></category>
+		<guid isPermaLink="false">/https://lilqasr.github.io/llabarcaq_PortFolio/?p=11</guid>
+
+					<description><![CDATA[Construyendo una base de datos para conocer la inversión del gobierno central en los diferentes municipios de Nicaragua. Introducción En Nicaragua, la información generada por el sector público es limitada. El Banco Central de Nicaragua y el Ministerio de Hacienda y Crédito Público (MHCP) son de las instituciones que más publican información cuantitativa sobre la economía del país; sin embargo, en cuanto a datos sociodemográficos, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong><em>Construyendo una base de datos para conocer la inversión del gobierno central en los diferentes municipios de Nicaragua.</em></strong></p>
+
+
+
+<p>Introducción</p>
+
+
+
+<p>En Nicaragua, la información generada por el sector público es limitada. El Banco Central de Nicaragua y el Ministerio de Hacienda y Crédito Público (MHCP) son de las instituciones que más publican información cuantitativa sobre la economía del país; sin embargo, en cuanto a datos sociodemográficos, es notable la falta de información actualizada. El censo poblacional no se realiza desde más de 15 años (última vez en 2005); encuestas sobre el nivel de vida (pobreza) se dejaron de publicar desde 2017. La única publicación periódica que se publica al respecto son los resultados de la Encuesta Continua de Hogares (ECH) que se ha estado publicando trimestralmente por el Instituto Nacional de Información de Desarrollo (INIDE).&nbsp;</p>
+
+
+
+<p>Dependiendo de la temática que se quiera estudiar sobre políticas públicas en Nicaragua, la información será mayor o menor. Durante ya casi 10 años he estado realizando análisis sobre las finanzas públicas de Nicaragua y algunos países centroamericano y me he encontrado con estas dificultades. Nicaragua está en la cola de la transparencia fiscal, así que cuando se desean hacer este tipo de análisis nos encontramos con muchas dificultades.&nbsp;</p>
+
+
+
+<p>Las autoridades nicaragüenses que rigen las finanzas públicas hasta la fecha no han logrado implementar un sistema de publicación de información que sea de fácil acceso para estudiar los datos respecto a este tema. Por ejemplo, el BCN publica la mayoría de sus datos en formatos de hojas de cálculo, implementando una política de “datos abiertos” para dar a conocer los indicadores económicos del país;&nbsp;&nbsp;sin embargo, esto no se ha logrado trasladar al MHCP.&nbsp;</p>
+
+
+
+<p>El proyecto reciente que trabajé fue el de construir una base de datos sobre la inversión pública en los diferentes departamentos y municipios del país. Para esto utilicé los datos que publica el MHCP en la página web del Sistema Nacional de Inversión Pública (SNIP). Estos son los únicos datos que este ministerio publica en cierta forma de “datos abiertos”<a href="applewebdata://2BC053DD-22E0-4EEF-8060-0B64AEB8A321#_ftn1"><sup>[1]</sup></a>.</p>
+
+
+
+<p>En esta web se puede encontrar información sobre los proyectos de inversión pública que el Sector Público no Financiero implementa en el país. Hay datos sobre las asignaciones (aprobado para los proyectos), así como lo realmente ejecutado al finalizar cada año. Muestra las instituciones, los proyectos, los sectores, los departamentos y municipios, así como las fuentes de financiamiento.&nbsp;</p>
+
+
+
+<p>Pero no todo es fácil; para poder construir una base de datos completa, es necesario unir la información de los diferentes archivos que se publican en este sitio<a href="applewebdata://2BC053DD-22E0-4EEF-8060-0B64AEB8A321#_ftn2"><sup>[2]</sup></a>.</p>
+
+
+
+<p><strong>La metodología</strong></p>
+
+
+
+<p>El objetivo de este proyecto es analizar cómo ha evolucionado la inversión pública en Nicaragua entre los años 2017 y 2021, conociendo lo siguiente: qué instituciones ejecutan, hacia qué sectores ha estado dirigida la inversión, quiénes financian los proyectos, y sobre todo, hacia qué departamentos y municipios se están enfocando los recursos<a href="applewebdata://2BC053DD-22E0-4EEF-8060-0B64AEB8A321#_ftn3"><sup>[3]</sup></a>.</p>
+
+
+
+<p>Para esto, hice uso de tres archivos que publica el SNIP. En el primero se presenta información de los departamentos, municipios, proyecto y obra y la institución encargada de ejecutarla. En el segundo se muestra información sobre las instituciones y los proyectos y las fuentes de financiamiento. El tercero incluye datos sobre los proyectos, el sector y la institución de ejecución.</p>
+
+
+
+<p>Tanto el segundo archivo, como el tercero, los datos publicados son los ejecutados, pero con el primero, eran los presupuestos actualizados, es decir, lo último que se aprueba (o se modifica) durante el año. Esto no es lo que realmente se ejecuta. Por lo tanto, fue necesario unir los datos de los archivos donde se muestra la información departamental y municipal</p>
+
+
+
+<figure class="wp-block-image is-style-default"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/5812561c-bfdd-4234-b110-3eccee28ada4" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/3b31b496-bc73-4e31-9ee7-4af442873cfd" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/05751ca1-561c-4d46-8338-c0a0cdd8c321" alt=""/></figure>
+
+
+
+<p><strong>Construcción de las bases de datos</strong></p>
+
+
+
+<p>Para poder consolidar toda la información en una sola base de datos fue necesario unir los tres archivos; sin embargo, la estructura de estas bases de datos no tienen un esquema de registros por columnas, sino una especie de jerarquía, por lo que fue necesario, primero que todo, convertirlas cada una a un formato de registros por columnas. HE AQUÍ EL GRAN RETO!</p>
+
+
+
+<p>Busqué algún ejemplo en internet sobre esto pero no encontré nada, porque no es algo común, así que lo hice de una manera algo rústica. Tuve que crear columnas para cada registro de las entidades de mi base de datos. Por ejemplo, en el primer archivo fueron: departamento, municipio, proyecto, obra, institución; en el segundo: Ente, institución, proyecto, obra, fuente; en el tercero: ente, sector, proyecto.</p>
+
+
+
+<p>Lo que facilitó el trabajo fue que cada entidad tenía un color diferente, con lo que pude hacer lo siguiente, resumidamente:&nbsp;</p>
+
+
+
+<ol type="1"><li>En una nueva pestaña, copié la tabla con todos sus registros desagrupados:</li></ol>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/39f756f0-6ac5-4523-80e4-7ab06e8c4134" alt=""/></figure>
+
+
+
+<ul><li>Cree una columna para cada nivel de información.</li></ul>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/749f4eb5-c608-4b0f-a786-623b7da915c2" alt=""/></figure>
+
+
+
+<ul><li>Borré los registros que no pertenecían a cada columna, guiado por el color.</li></ul>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/ca6a969d-28ae-4c6e-bf68-d442f71d9bfd" alt=""/></figure>
+
+
+
+<p>Rellené automáticamente cada columna con el registro al que pertenecía para que cada fila coincidiera al final con el último elemento.</p>
+
+
+
+<p><img loading="lazy" width="442" height="108" src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/c3c43985-c458-4b64-b7ff-cc2ac17073ff"></p>
+
+
+
+<ul><li>Seguidamente fue necesario crear dos columnas para mostrar el tipo de fuente (interna o externa) y tipo de financiamiento (donación, préstamo, recursos del tesoro).</li></ul>
+
+
+
+<p>Para crear el tipo financiamiento usé el siguiente código:</p>
+
+
+
+<p>=IF(OR(H1103=&#8221;Recursos del Tesoro&#8221;, H1103=&#8221;Recursos Propios&#8221;, H1103=&#8221;Ingresos con Destino Específico&#8221;), &#8220;Fondos Internos&#8221;, &#8220;Fondos Externos&#8221;)</p>
+
+
+
+<p>Para crear el tipo de fuente (donación, préstamo o recurso interno), tuve que crear un código que conectara las columnas de los datos de las fuentes de financiamiento:</p>
+
+
+
+<p>=IF(M1106&gt;0,&#8221;Recursos Propios&#8221;, IF(N1106&gt;0, &#8220;Recursos del Tesoro&#8221;, IF(O1106&gt;0, &#8220;Destino Específico&#8221;, IF(P1106&gt;0, &#8220;Donación&#8221;, IF(Q1106&gt;0, &#8220;Préstamo&#8221;)))))</p>
+
+
+
+<p>Nota: Antes de esto tuve problemas porque no identificaba bien la columna de la fuente con lo que había escrito en los códigos, por lo que tuve que eliminar los espacios iniciales de la columna con la función TRIM</p>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/081782b3-772a-42d7-9584-aceb466f31e2" alt=""/></figure>
+
+
+
+<p>Este procedimiento lo apliqué con las tres bases de datos, para los años 2017-2022 y me quedó lo siguiente:</p>
+
+
+
+<p><img loading="lazy" width="577" height="165" src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/b072a0de-fb9f-46cf-ab38-9e6075946f65"><img loading="lazy" width="577" height="181" src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/222d1f89-cfff-4d27-af28-cda8e258f790"></p>
+
+
+
+<p>Para el caso de esta base de datos, donde se muestra el sector al que pertenece el proyecto, tuve que agregar una columna con el nombre de la institución completa ya que el archivo solamente mostraba las siglas del nombre de la institución lo que iba afectar la conexión de la información.&nbsp;</p>
+
+
+
+<p>Nota: En esta parte, encontré una dificultad pues hay un proyecto y obra particular que se asigna a los recursos transferidos por el gobierno central a los municipios. En este caso, registraba el primer municipio que encontraba, por lo tanto se perdía la información de cada municipio en este particular. Por lo tanto, como en el caso anterior, concatené el proyecto con el municipio para conectar la información.</p>
+
+
+
+<p>El siguiente paso fue unir las tres bases de datos en una sola para cada archivo. En este punto, decidí unir la información en el archivo donde me mostraba la fuente de financiamiento individual para cada proyecto, por lo tanto tenía que añadir las columnas para los demás datos: Departamento, Municipio, Sector.</p>
+
+
+
+<p>Para conocer el municipio del proyecto conecté la columna obra/actividad con el municipio de la base de datos que brinda la información del municipio y departamento a través de la función XLOOKUP, y luego conecté el departamento con el municipio con la misma función.</p>
+
+
+
+<p><img loading="lazy" width="592" height="191" src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/f60b4145-dc24-4a95-83dd-825cd76bc78c"></p>
+
+
+
+<p>Para el caso del sector tuve que conectar los datos con el proyecto, pues hasta este nivel llegaba la información en estos archivos. Además,&nbsp;&nbsp;creé una columna concatenando el Ente y la institución a la que pertenecía el proyecto para luego unirla con la información base que estaba creando.&nbsp;</p>
+
+
+
+<p>Finalmente, solamente restaba unir la información de todos los años en un solo archivo. Para esto tuve que hacer uso de Python, ya que en Mac, la opción de unir bases de datos en un solo archivo (através de power query) aún no está disponible. Por lo tanto, copie cada pestaña, que se convirtió en los datos para un solo año, en un solo archivo.&nbsp;</p>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/3d15e23e-d9e1-46b4-9a71-7be03341abfb" alt=""/></figure>
+
+
+
+<p>No sabía cómo realizar esto en Python, pero sabía que con Pandas había una solución y la encontré en la comunidad&nbsp;<a href="https://towardsdatascience.com/a-simple-trick-to-load-multiple-excel-worksheets-in-pandas-3fae4124345b">https://towardsdatascience.com/a-simple-trick-to-load-multiple-excel-worksheets-in-pandas-3fae4124345b</a>; según este autor, es necesario leer el archivo de Excel y convertirlo en un diccionario de base de datos. Una vez hecho esto, se necesita concatenar las bases de datos (para esto es necesario colocar los mismos nombres para los encabezados de las columnas).</p>
+
+
+
+<p><iframe src="https: carbon.now.sh="" embed?bg="rgba%28171%2C+184%2C+195%2C+1%29&amp;t=base16-light&amp;wt=none&amp;l=python&amp;width=680&amp;ds=true&amp;dsyoff=20px&amp;dsblur=68px&amp;wc=true&amp;wa=true&amp;pv=56px&amp;ph=56px&amp;ln=false&amp;fl=1&amp;fm=Hack&amp;fs=14px&amp;lh=133%25&amp;si=false&amp;es=2x&amp;wm=false&amp;code=%2523Import%2520pandas%250Aimport%2520numpy%2520as%2520np%250A%250A%2523%2520Read%2520excel%2520file.%2520The%2520trick%2520is%2520to%2520write%2520sheet_name%253DNone%2520to%2520read%2520all%2520the%2520information%250Adf_dict%2520%253D%2520pd.read_excel%28%27filepath%27%252C%2520sheet_name%253DNone%29%250A%250A%2523%2520Create%2520the%2520database%2520with%2520concatenation%2520function%250Apip2017_2022%2520%253D%2520pd.concat%28df_dict.values%28%29%252C%2520ignore_index%253DTrue%29%250A%250A%250A&quot;" style="width: 858px; height: 391px; border:0; transform: scale(1); overflow:hidden;"   sandbox="allow-scripts allow-same-origin">&lt;&gt;</iframe src="https:></p>
+
+
+
+<p>**Limpiar la base de datos**</p>
+
+
+
+<p>Otra parte complicada de esta base de datos fue su limpieza. Lo que facilitó el trabajo de unir toda esta información fue que la información individual más importante y la que guiaba la conexión de los datos fue la fuente de financiamiento de cada obra. Por lo que fue necesario homogenizar los nombres de las fuentes de información, que posiblemente cambiaron con el pasar de los años. También fue necesario hacer esto mismo para los campos de las instituciones, y sobre todos los Sectores, que su clasificación ha venido cambiando con el pasar de los años.&nbsp;</p>
+
+
+
+<p>Para realizar esta tarea existe una herramienta que se llama “Open refine”&nbsp;<a href="https://openrefine.org/">OpenRefine</a></p>
+
+
+
+<p>, una herramienta creada por la comunidad de software libre para trabajar con la limpieza de los datos. Esta herramienta es sumamente importante cuando se construyen este tipo de base de datos las cuales son de gran cantidad de registros y cuando se duda de la homogeneidad de su información.&nbsp;</p>
+
+
+
+<p>La herramienta es sumamente fácil de utilizar. Funciona con un programa ejecutador que se abre en tu navegador predeterminado y necesitas importar el archivo. Una vez importado te hará crear un proyecto y te enviará a la interfaz final donde se realizarán los cambios que deseas realizar a la base de datos</p>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/3b496117-37fc-470b-bca2-77501412f9f0" alt=""/></figure>
+
+
+
+<p>Lo que me interesaba era lo que mencioné anteriormente, que los nombres de la información más importante fueran los mismos. Para eso se utiliza la herramienta de cluster, el cual se encuentra seleccionando la columna que se quiere transformar. Con esta opción se pueden hacer búsqueda de registros similares, pero que se identifican distintos pues difieren en su escritura.</p>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/5895f87c-7162-47b8-8131-44e1769cc922" alt=""/></figure>
+
+
+
+<figure class="wp-block-image"><img src="blob:/https://lilqasr.github.io/llabarcaq_PortFolio/2fd8e723-cd25-404e-8ee9-91759e98f42e" alt=""/></figure>
+
+
+
+<p>Una vez limpia la base de datos, es posible descargar el archivo en cualquier formato. En ocasiones es posible repetir el proceso porque podría ser que al utilizar el programa para analizar los datos, se haya quedado algún dato sin limpiar.&nbsp;</p>
+
+
+
+<p>**Análisis de los datos**</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p><a href="applewebdata://2BC053DD-22E0-4EEF-8060-0B64AEB8A321#_ftnref1"><sup>[1]</sup></a>&nbsp;<a href="http://www.snip.gob.ni/">www.snip.gob.ni</a></p>
+
+
+
+<p><a href="applewebdata://2BC053DD-22E0-4EEF-8060-0B64AEB8A321#_ftnref2"><sup>[2]</sup></a>&nbsp;<a href="http://snip.gob.ni/Portada/PipAnual">Programa Anual de Inversiones &#8211; Sistema Nacional de Inversiones Públicas (snip.gob.ni)</a></p>
+
+
+
+<p><a href="applewebdata://2BC053DD-22E0-4EEF-8060-0B64AEB8A321#_ftnref3"><sup>[3]</sup></a>&nbsp;Es necesario destacar que la información que se publica en este sitio web es de toda la inversión pública del sector público no financiero: gobierno central, empresas públicas. Incluye parte de la inversión pública que hacen los gobiernos municipales, pero la que es financiada a través de las transferencias del gobierno central; no toma en cuenta las posibles inversiones que estos hacen con sus propios recursos, porque en muchos casos hay una deficiente contabilidad.&nbsp;</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://lilqasr.github.io/llabarcaq_PortFolio/ahi-vamo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Cardiovascular diseases analysis</title>
+		<link>/https://lilqasr.github.io/llabarcaq_PortFolio/cvd-analysis/</link>
+					<comments>/https://lilqasr.github.io/llabarcaq_PortFolio/cvd-analysis/#respond</comments>
+		
+		<dc:creator><![CDATA[leolab88]]></dc:creator>
+		<pubDate>Mon, 26 Sep 2022 23:56:43 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/https://lilqasr.github.io/llabarcaq_PortFolio/?p=8</guid>
+
+					<description><![CDATA[The following is one of the capstone project that i made for my Post Graduate Program in Data analytics bootcamp offered by SimpliLearn and the Purdue University. In this case it was asked to analyze a data sets for Cardiovascular Diseases, to determine and examine the factors that play a significant role in increasing the rate of heart attacks. It was also asked to create [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The following is one of the capstone project that i made for my Post Graduate Program in Data analytics  bootcamp offered by SimpliLearn and the Purdue University. In this case it was asked to analyze a data sets for Cardiovascular Diseases, to determine and examine the factors that play a significant role in increasing the rate of heart attacks. It was also asked to create and predict a model.</p>
+
+
+
+<!--–– replace src and id. Note that the id appears in two places ––-->
+<iframe src="/https://lilqasr.github.io/llabarcaq_PortFolio/wp-content/uploads/2022/09/Capstone_Project_1_Cleaned.html" id="capstone_proj1_python" scrolling="no" width="100%" frameborder="0" style="border: 1px lightgrey solid;">
+</iframe>
+<script>
+(function(){
+    var iframe = document.getElementById("capstone_proj1_python");
+    function resize() {
+        iframe.style.height = 
+        (iframe.contentWindow.document.body.scrollHeight + 4) + 'px';
+        // "body" in the above line may need to be changed,
+        // depending on the specific version of Jupyter.
+        // For example, it may have to be replaced with 
+        // .getElementById("notebook-container"), and the 
+        // DOM and the id may need to be manually added.
+    }
+    window.addEventListener("resize", resize);
+    iframe.addEventListener("load", resize);
+})()
+</script>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://lilqasr.github.io/llabarcaq_PortFolio/cvd-analysis/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>El primer proyecto</title>
+		<link>/https://lilqasr.github.io/llabarcaq_PortFolio/hello-world/</link>
+					<comments>/https://lilqasr.github.io/llabarcaq_PortFolio/hello-world/#comments</comments>
+		
+		<dc:creator><![CDATA[leolab88]]></dc:creator>
+		<pubDate>Mon, 26 Sep 2022 21:25:23 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">/https://lilqasr.github.io/llabarcaq_PortFolio/?p=1</guid>
+
+					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+										<content:encoded><![CDATA[
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://lilqasr.github.io/llabarcaq_PortFolio/hello-world/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
