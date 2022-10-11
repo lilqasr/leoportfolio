@@ -1930,3 +1930,1633 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/searchform.php on line 18
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Simply_Static\esc_url() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/settings.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/settings.php on line 5
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/_pagination.php:2
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/_pagination.php on line 2
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Simply_Static\_e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/generate.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/generate.php on line 5
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/_activity_log.php:4
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/_activity_log.php on line 4
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/_export_log.php:4
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/_export_log.php on line 4
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/layouts/admin.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/layouts/admin.php on line 5
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Simply_Static\_e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/diagnostics.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/diagnostics.php on line 5
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/redirect.php:4
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/views/redirect.php on line 4
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Async_Request' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/a5hleyrich/wp-background-processing/classes/wp-background-process.php on line 14
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_dir_path() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/a5hleyrich/wp-background-processing/wp-background-processing.php:20
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/a5hleyrich/wp-background-processing/wp-background-processing.php on line 20
+[11-Oct-2022 20:19:51 UTC] PHP Warning:  require(/Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/build/../vendor/autoload.php): failed to open stream: No such file or directory in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/build/generate_docs.php on line 3
+[11-Oct-2022 20:19:51 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:51 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/build/generate_docs.php:0
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  require(): Failed opening required '/Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/build/../vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/build/generate_docs.php on line 3
+[11-Oct-2022 20:19:51 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:51 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/build/generate_docs.php:0
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleXmlDom' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDom.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDom.php on line 14
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Interface 'voku\helper\DomParserInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/AbstractDomParser.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/AbstractDomParser.php on line 7
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleHtmlDomNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNodeBlank.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNodeBlank.php on line 10
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Interface 'voku\helper\SimpleHtmlAttributesInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlAttributes.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlAttributes.php on line 10
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleXmlDomNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNodeBlank.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNodeBlank.php on line 10
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleHtmlDomNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNode.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomNode.php on line 10
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleHtmlDom' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDom.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDom.php on line 14
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleXmlDom' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDomBlank.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDomBlank.php on line 14
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleXmlDomNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNode.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleXmlDomNode.php on line 10
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractSimpleHtmlDom' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomBlank.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/SimpleHtmlDomBlank.php on line 14
+[11-Oct-2022 20:19:51 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractDomParser' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/XmlDomParser.php:16
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/XmlDomParser.php on line 16
+[11-Oct-2022 20:19:52 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\AbstractDomParser' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/HtmlDomParser.php:34
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/simple_html_dom/src/voku/helper/HtmlDomParser.php on line 34
+[11-Oct-2022 20:19:52 UTC] PHP Warning:  require(/Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/../vendor/autoload.php): failed to open stream: No such file or directory in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_max_key_length.php on line 3
+[11-Oct-2022 20:19:52 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:52 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_max_key_length.php:0
+[11-Oct-2022 20:19:52 UTC] PHP Fatal error:  require(): Failed opening required '/Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/../vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_max_key_length.php on line 3
+[11-Oct-2022 20:19:52 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:52 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_max_key_length.php:0
+[11-Oct-2022 20:19:52 UTC] PHP Warning:  require(/Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/../vendor/autoload.php): failed to open stream: No such file or directory in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_docs.php on line 3
+[11-Oct-2022 20:19:52 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:52 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_docs.php:0
+[11-Oct-2022 20:19:52 UTC] PHP Fatal error:  require(): Failed opening required '/Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/../vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_docs.php on line 3
+[11-Oct-2022 20:19:52 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:52 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-ascii/build/generate_docs.php:0
+[11-Oct-2022 20:19:52 UTC] PHP Fatal error:  Uncaught Error: Class 'voku\helper\Bootup' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-utf8/bootstrap.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/voku/portable-utf8/bootstrap.php on line 6
+[11-Oct-2022 20:19:52 UTC] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/polyfill-iconv/bootstrap80.php on line 28
+[11-Oct-2022 20:19:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/polyfill-intl-normalizer/bootstrap80.php on line 18
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Polyfill\Intl\Normalizer\Normalizer' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php:3
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php on line 3
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php:31
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/FunctionExtension.php on line 31
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php:26
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/CombinationExtension.php on line 26
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/PseudoClassExtension.php on line 27
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php:28
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php on line 28
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php:27
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/AttributeMatchingExtension.php on line 27
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\XPath\Extension\AbstractExtension' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php:29
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php on line 29
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\XPath\Extension\ExtensionInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Extension/AbstractExtension.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\XPath\TranslatorInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Translator.php:31
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/XPath/Translator.php on line 31
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php:27
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/CommentHandler.php on line 27
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php:30
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/IdentifierHandler.php on line 30
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php:28
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/WhitespaceHandler.php on line 28
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/StringHandler.php:32
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/StringHandler.php on line 32
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/HashHandler.php:30
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/HashHandler.php on line 30
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\Handler\HandlerInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php:29
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Handler/NumberHandler.php on line 29
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php:29
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/ClassParser.php on line 29
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php:32
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php on line 32
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php:28
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/ElementParser.php on line 28
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php:29
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Shortcut/HashParser.php on line 29
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Parser\ParserInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Parser.php:28
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Parser/Parser.php on line 28
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/ClassNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/ClassNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/FunctionNode.php:26
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/FunctionNode.php on line 26
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Node\NodeInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/AbstractNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/AbstractNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/PseudoNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/PseudoNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/ElementNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/ElementNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/HashNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/HashNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/AttributeNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/AttributeNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/NegationNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/NegationNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/SelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/SelectorNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Node\AbstractNode' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/CombinedSelectorNode.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Node/CombinedSelectorNode.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Exception\ParseException' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Exception\ParseException' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'Symfony\Component\CssSelector\Exception\ExceptionInterface' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Symfony\Component\CssSelector\Exception\ParseException' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[11-Oct-2022 20:19:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/polyfill-mbstring/bootstrap80.php on line 15
+[11-Oct-2022 20:19:53 UTC] PHP Parse error:  syntax error, unexpected '|', expecting '{' in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/vendor/symfony/polyfill-intl-grapheme/bootstrap80.php on line 25
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Simply_Static\Task' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-cancel-task.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-cancel-task.php on line 7
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Simply_Static\Task' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-transfer-files-locally-task.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-transfer-files-locally-task.php on line 7
+[11-Oct-2022 20:19:53 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php on line 4
+[11-Oct-2022 20:19:53 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:53 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php:0
+[11-Oct-2022 20:19:53 UTC] PHP Warning:  require_once(ABSPATHwp-admin/includes/class-pclzip.php): failed to open stream: No such file or directory in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php on line 4
+[11-Oct-2022 20:19:53 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:53 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php:0
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/class-pclzip.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php on line 4
+[11-Oct-2022 20:19:53 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:53 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-create-zip-archive.php:0
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Simply_Static\Task' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-setup-task.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-setup-task.php on line 7
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Simply_Static\Task' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-fetch-urls-task.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-fetch-urls-task.php on line 7
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Simply_Static\Task' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-wrapup-task.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static/src/tasks/class-ss-wrapup-task.php on line 7
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Class 'Simply_Static\Task' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static-callback/admin/tasks/class-ss-callback-task.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/plugins/simply-static-callback/admin/tasks/class-ss-callback-task.php on line 7
+[11-Oct-2022 20:19:53 UTC] PHP Notice:  Undefined index: wp_version in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/functions.php on line 13
+[11-Oct-2022 20:19:53 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:53 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/functions.php:0
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/functions.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/functions.php on line 14
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/404.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/404.php on line 12
+[11-Oct-2022 20:19:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/inc/menu-functions.php:39
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/inc/menu-functions.php on line 39
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/inc/template-functions.php:38
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/inc/template-functions.php on line 38
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/inc/back-compat.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/inc/back-compat.php on line 24
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/index.php on line 17
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/archive.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/archive.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-customize-notice-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-customize-notice-control.php on line 17
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Color_Control' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-customize-color-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/classes/class-twenty-twenty-one-customize-color-control.php on line 17
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/comments.php:20
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/comments.php on line 20
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/search.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/search.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/header.php:16
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/header.php on line 16
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/footer/footer-widgets.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/footer/footer-widgets.php on line 10
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_author_meta() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/post/author-bio.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/post/author-bio.php on line 11
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-single.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-single.php on line 14
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_search() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-none.php:16
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-none.php on line 16
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-page.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-page.php on line 14
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php on line 14
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/content/content.php on line 14
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_content() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-quote.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-quote.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_block() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-gallery.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-gallery.php on line 13
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_content() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-audio.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-audio.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-aside.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-aside.php on line 13
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_content() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-video.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-video.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_content() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-status.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-status.php on line 13
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twenty_twenty_one_can_show_post_thumbnail() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-image.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-image.php on line 14
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_block() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-link.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-link.php on line 13
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_excerpt() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_block() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-chat.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/excerpt/excerpt-chat.php on line 14
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_title() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/entry-header.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/entry-header.php on line 10
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_format() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/excerpt-header.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/excerpt-header.php on line 11
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_custom_logo() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-header.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-header.php on line 11
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_bloginfo() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-branding.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-branding.php on line 10
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_nav_menu() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-nav.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/template-parts/header/site-nav.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/footer.php:19
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/footer.php on line 19
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/single.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/single.php on line 12
+[11-Oct-2022 20:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/page.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/page.php on line 12
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/image.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/image.php on line 10
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_unique_id() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/searchform.php:19
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentyone/searchform.php on line 19
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/functions.php:34
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/functions.php on line 34
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-wide-image-intro-buttons.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-wide-image-intro-buttons.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-stacked.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-stacked.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-divider-dark.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-divider-dark.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-layered-images-with-duotone.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-layered-images-with-duotone.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-blog-posts.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-blog-posts.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-image-with-caption.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-image-with-caption.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-navigation-copyright.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-navigation-copyright.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-video-header-details.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-video-header-details.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-divider-light.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-divider-light.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-large-dark.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-large-dark.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-query-title-citation.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-query-title-citation.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-default.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-default.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-two-images-text.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-two-images-text.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-default.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-default.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-large-titles.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-large-titles.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-with-tagline.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-with-tagline.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-image-background-overlay.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-image-background-overlay.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-links.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-links.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-simple-blog.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-simple-blog.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-navigation.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-navigation.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-grid-posts.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-grid-posts.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-centered-logo-black-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-centered-logo-black-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-logo-navigation-social-black-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-logo-navigation-social-black-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-dark.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-dark.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-media-right.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-media-right.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-simple-dark.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-simple-dark.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-default.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-irregular-grid.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-irregular-grid.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-image-grid.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-image-grid.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-logo-navigation-offset-tagline.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-logo-navigation-offset-tagline.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/hidden-404.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/hidden-404.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-title-navigation-social.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-title-navigation-social.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-layout-two-columns.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-layout-two-columns.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-poster.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-poster.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-text-only-salmon-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-text-only-salmon-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-subscribe.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-subscribe.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-text-only-green-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-text-only-green-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-solid-color.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-solid-color.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-pricing-table.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-pricing-table.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-small-dark.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-small-dark.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-grid.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-grid.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/hidden-heading-and-bird.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/hidden-heading-and-bird.php on line 10
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-blog-posts-right.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-sidebar-blog-posts-right.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-list-events.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-list-events.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-about-title-logo.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-about-title-logo.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-links-dark.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-links-dark.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-media-left.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-media-left.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-layout-image-and-text.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-layout-image-and-text.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-large-list-names.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-large-list-names.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-featured-posts.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-featured-posts.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-title-and-button.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-title-and-button.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-query-images-title-citation.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-query-images-title-citation.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-layout-image-text-and-video.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-layout-image-text-and-video.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-social-copyright.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-social-copyright.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-centered-logo.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-centered-logo.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-title-tagline-social.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-title-tagline-social.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-text-grid.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/query-text-grid.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-text-only-with-tagline-black-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-text-only-with-tagline-black-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/hidden-bird.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/hidden-bird.php on line 9
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-blog.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-blog.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-logo.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/footer-logo.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-large-image-and-buttons.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/page-about-large-image-and-buttons.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-logo-navigation-gray-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-logo-navigation-gray-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-centered-title-navigation-social.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-centered-title-navigation-social.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-video-trailer.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/general-video-trailer.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-image-background.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/patterns/header-image-background.php on line 6
+[11-Oct-2022 20:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/block-patterns.php:135
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwentytwo/inc/block-patterns.php on line 135
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_get_theme() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/functions.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/functions.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/woocommerce/woocommerce.php:25
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/woocommerce/woocommerce.php on line 25
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/404.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/404.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/sidebar-layouts.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/sidebar-layouts.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/site-identity.php:151
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/site-identity.php on line 151
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/global-options.php:619
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/global-options.php on line 619
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/about-theme.php:100
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/about-theme.php on line 100
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/theme-footer.php:272
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/theme-footer.php on line 272
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/theme-header.php:523
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/theme-header.php on line 523
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/blog-archive.php:292
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/blog-archive.php on line 292
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/three-column.php:286
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/three-column.php on line 286
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/products-section.php:217
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/products-section.php on line 217
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/main-banner.php:481
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/main-banner.php on line 481
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/featured-links.php:297
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/featured-links.php on line 297
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/single-post.php:196
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/sections/single-post.php on line 196
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/customizer.php:146
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/customizer.php on line 146
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/custom-controls/typography/typography.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/custom-controls/typography/typography.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/custom-controls/repeater/repeater.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/custom-controls/repeater/repeater.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/custom-controls/radio-image/radio-image.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/customizer/custom-controls/radio-image/radio-image.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html__() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/class-theme-info.php:38
+Stack trace:
+#0 /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/class-theme-info.php(28): Wp_Minimalist_Theme_Info->__construct()
+#1 /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/class-theme-info.php(512): Wp_Minimalist_Theme_Info::instance()
+#2 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/class-theme-info.php on line 38
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/customizer-upsell.php:166
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/customizer-upsell.php on line 166
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function apply_filters() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/assets/demos.php:232
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/admin/assets/demos.php on line 232
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/custom-header.php:36
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/custom-header.php on line 36
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_mod() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/inline-styles.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/inline-styles.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/hooks/hooks.php:27
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/hooks/hooks.php on line 27
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/hooks/frontpage-sections.php:92
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/hooks/frontpage-sections.php on line 92
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/jetpack.php:51
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/jetpack.php on line 51
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/widgets.php:74
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/widgets.php on line 74
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/author-info.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/author-info.php on line 5
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/category-collection.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/category-collection.php on line 5
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/posts-list.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/posts-list.php on line 5
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/social-icons.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/social-icons.php on line 6
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/widget-title.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/widgets/widget-title.php on line 5
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/template-functions.php:48
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/inc/template-functions.php on line 48
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/index.php on line 15
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/archive.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/archive.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/comments.php:18
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/comments.php on line 18
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/search.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/search.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/sidebar-shop.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/sidebar-shop.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/header.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'category' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'count' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'no_thumb' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'categoryOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'titleOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'dateOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'commentOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 15
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderLoop' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 15
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 16
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderControls' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 16
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 17
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderDots' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 17
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 18
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderAuto' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 18
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 19
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderFade' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 19
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 20
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderSpeed' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 20
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 21
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'order' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 21
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php:22
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-two.php on line 22
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'items' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'titleOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderLoop' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderControls' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderDots' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderAuto' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderFade' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 15
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'sliderSpeed' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 15
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php:16
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/main-banner/layout-custom-two.php on line 16
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_mod() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-archive.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-archive.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_search() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-none.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-none.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-page.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-page.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_category() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/single/layouts/layout-two.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/single/layouts/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 5
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'blockTitle' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 5
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 6
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'categories' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 6
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 7
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'titleOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 7
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'countOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'type' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_categories() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php:75
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/categories-collection/layout-one.php on line 75
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_thumbnail() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-search.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/content-search.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php:23
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-three.php on line 23
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php:23
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-one.php on line 23
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php:23
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/posts-column/layout-two.php on line 23
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_mod() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/header/layout-two.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/header/layout-two.php on line 15
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'blockTitle' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'productType' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'categories' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'count' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'ratingOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'priceOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'cartOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-one.php on line 35
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'blockTitle' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 8
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'productType' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 9
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'categories' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'count' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 11
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'ratingOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 12
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'priceOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 13
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Undefined variable: args in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Notice:  Trying to get property 'cartOption' of non-object in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 14
+[11-Oct-2022 20:19:56 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:56 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:0
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/template-parts/woo-products/layout-two.php on line 35
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/footer.php on line 22
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/single.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/single.php on line 10
+[11-Oct-2022 20:19:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/page.php on line 15
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/sidebar.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/sidebar.php on line 11
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/searchform.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/searchform.php on line 11
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_theme_mod() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/footer-columns.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/wp-minimalist/footer-columns.php on line 8
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/functions.php on line 8
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/category.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/category.php on line 6
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/sidebar-primary.php:6
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/sidebar-primary.php on line 6
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/index.php on line 1
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/header.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/header.php on line 12
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/single.php:4
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/single.php on line 4
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_posts() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/sidebar-second.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/Future_theme/sidebar-second.php on line 11
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy-dark/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy-dark/functions.php on line 8
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy-dark/template-parts/content-single.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy-dark/template-parts/content-single.php on line 13
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy-dark/template-parts/content.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy-dark/template-parts/content.php on line 12
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/functions.php:164
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/functions.php on line 164
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/404.php on line 10
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/customizer.php:18
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/customizer.php on line 18
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/custom-header.php:35
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/custom-header.php on line 35
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/jetpack.php:51
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/jetpack.php on line 51
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/template-functions.php:27
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/inc/template-functions.php on line 27
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-category-boxes-options.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-category-boxes-options.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-category-boxes-options.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-category-boxes-options.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fairy_default_theme_options_values() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-main-panel.php:5
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-main-panel.php on line 5
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-colors.php on line 10
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-colors.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_setting() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-colors.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-colors.php on line 10
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-breadcrumb.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-breadcrumb.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-breadcrumb.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-breadcrumb.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-slider.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-slider.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-slider.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-slider.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-sidebar-options.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-sidebar-options.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-sidebar-options.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-sidebar-options.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-top-header.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-top-header.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-top-header.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-top-header.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-extra-options.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-extra-options.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-extra-options.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-extra-options.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-footer-settings.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-footer-settings.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-footer-settings.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-footer-settings.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-blog-page.php on line 10
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-blog-page.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-blog-page.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-blog-page.php on line 10
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-typography.php on line 8
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-typography.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_panel() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-typography.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-typography.php on line 8
+[11-Oct-2022 20:19:57 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-site-layout.php on line 9
+[11-Oct-2022 20:19:57 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:57 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-site-layout.php:0
+[11-Oct-2022 20:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-site-layout.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-site-layout.php on line 9
+[11-Oct-2022 20:19:58 UTC] PHP Notice:  Undefined variable: wp_customize in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-single-page.php on line 9
+[11-Oct-2022 20:19:58 UTC] PHP Stack trace:
+[11-Oct-2022 20:19:58 UTC] PHP   1. {main}() /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-single-page.php:0
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-single-page.php:9
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer/customizer-single-page.php on line 9
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/about/about.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/about/about.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/candid-author-widget.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/candid-author-widget.php on line 15
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/candid-recent-posts-widget.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/candid-recent-posts-widget.php on line 14
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/candid-social-widget.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/candid-social-widget.php on line 13
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/widget-init.php:24
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/custom-widgets/widget-init.php on line 24
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/metabox/metabox-sidebar.php:70
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/metabox/metabox-sidebar.php on line 70
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/custom-functions.php:44
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/custom-functions.php on line 44
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/hook-header.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/hook-header.php on line 15
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/hook-footer.php:28
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/hook-footer.php on line 28
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/hook-content.php:25
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/functions/hook-content.php on line 25
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Section' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/section-pro.php:8
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/section-pro.php on line 8
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Control' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/customize-controls.php:7
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/customize-controls.php on line 7
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/class-customize.php:48
+Stack trace:
+#0 /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/class-customize.php(23): Fairy_Customize->setup_actions()
+#1 /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/class-customize.php(102): Fairy_Customize::get_instance()
+#2 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/customizer-pro/class-customize.php on line 48
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/core.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/candidthemes/core.php on line 13
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/index.php on line 15
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/archive.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/archive.php on line 11
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/comments.php:18
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/comments.php on line 18
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/woocommerce.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/woocommerce.php on line 15
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/search.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/search.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/sidebar-shop.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/sidebar-shop.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function fairy_get_options_value() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/header.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/header.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-single.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-single.php on line 13
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html_e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-none.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-none.php on line 14
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-page.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-page.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-search.php:13
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/template-parts/content-search.php on line 13
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/footer.php:23
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/footer.php on line 23
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/single.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/single.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/page.php:15
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/page.php on line 15
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_active_sidebar() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/sidebar.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/fairy/sidebar.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/functions.php:150
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/functions.php on line 150
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/404.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/singular.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/singular.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/inc/template-tags.php:178
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/inc/template-tags.php on line 178
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/index.php on line 17
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Walker_Page' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-page.php on line 17
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/classes/class-twentytwenty-customize.php:470
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/classes/class-twentytwenty-customize.php on line 470
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Class 'Walker_Comment' not found in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/classes/class-twentytwenty-walker-comment.php on line 17
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_password_required() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/comments.php:16
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/comments.php on line 16
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/header.php on line 14
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_singular() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/entry-header.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/entry-header.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_nav_menu() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/footer-menus-widgets.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/footer-menus-widgets.php on line 11
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/pagination.php:19
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/pagination.php on line 19
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/modal-menu.php:21
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/modal-menu.php on line 21
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr_e() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/modal-search.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/modal-search.php on line 11
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/content.php:16
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/content.php on line 16
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/content-cover.php:12
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/content-cover.php on line 12
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function has_post_thumbnail() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/featured-image.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/featured-image.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_author_meta() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/entry-author-bio.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/entry-author-bio.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_next_post() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/navigation.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/template-parts/navigation.php on line 10
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function date_i18n() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/footer.php:23
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/footer.php on line 23
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/templates/template-full-width.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/templates/template-full-width.php on line 11
+[11-Oct-2022 20:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/templates/template-cover.php:11
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/templates/template-cover.php on line 11
+[11-Oct-2022 20:19:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_unique_id() in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/searchform.php:18
+Stack trace:
+#0 {main}
+  thrown in /Users/leona/Local Sites/leoportfolio/app/public/wp-content/themes/twentytwenty/searchform.php on line 18
