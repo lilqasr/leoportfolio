@@ -192,29 +192,9 @@ img.emoji {
 
 
 <!--–– replace src and id. Note that the id appears in two places ––-->
-<iframe src="http://leoportfolio.local/wp-content/uploads/2022/10/CGR_PDF-FILES_DOWNLOAD.html" id="webscrapePDF_CGR" scrolling="no" width="100%" frameborder="0" style="border: 1px lightgrey solid;">
+<iframe src="http://leoportfolio.local/wp-content/uploads/2022/10/CGR_PDF-FILES_DOWNLOAD.html" name="webscrapePDF_CGR" scrolling="no" width="100%" frameborder="0" style="border: 1px lightgrey solid;">
 </iframe>
-<script>(function(){
-    var iframe = document.getElementById("webscrapePDF_CGR");
-    function resize() {
-        iframe.style.height = 
-        (iframe.contentWindow.document.getElementById("webscrapePDF_CGR").scrollHeight + 4) + 'px';
-        // "body" in the above line may need to be changed,
-        // depending on the specific version of Jupyter.
-        // For example, it may have to be replaced with 
-        // .getElementById("notebook-container"), and the 
-        // DOM and the id may need to be manually added.
-    }
-    window.addEventListener("resize", resize);
-    iframe.addEventListener("load", resize);
-})()</script>
 
-
-<script type="text/javascript">
-	$(function () {
-		$(".SecondDivID").load("http://leoportfolio.local/wp-content/uploads/2022/10/CGR_PDF-FILES_DOWNLOAD.html");
-	});
-</script>
 
 
 
