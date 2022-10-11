@@ -22,7 +22,7 @@
 						<h1><a href="index.html">Leonardo Labarca Portfolio</a></h1>
 						<nav class="links">
 							<ul>
-								<li><a href="http://leoportfolio.local/category/mixed/">Mixed</a></li>
+								<li><a href="https://leoportfolio.local/category/mixed/">Mixed</a></li>
 								<li><a href="#">Ipsum</a></li>
 								<li><a href="#">Feugiat</a></li>
 								<li><a href="#">Tempus</a></li>
